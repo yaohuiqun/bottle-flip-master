@@ -7,6 +7,7 @@ import glamorous, {Div} from 'glamorous';
 const game = new BottleFlip();
 game.start();
 
+
 const Button = glamorous.div({
   display: 'flex',
   justifyContent: 'center',
