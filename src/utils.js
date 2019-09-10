@@ -7,7 +7,6 @@ export const Rem = option => {
     };
 
     option = Object.assign({}, _option, option)
-
     return x => {
         return parseFloat((x / option.remUnit).toFixed(option.remPrecision)).toString() + 'rem'
     }
